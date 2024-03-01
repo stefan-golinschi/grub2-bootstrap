@@ -16,6 +16,8 @@ A sample partition layout is [layout.sfdisk](./layout.sfdisk), which can be easi
 sfdisk /dev/sdg < layout.sfdisk
 ```
 
+Remember, the partition code for EFI ESP is `ef00`.
+
 
 ## Disk formatting
 
